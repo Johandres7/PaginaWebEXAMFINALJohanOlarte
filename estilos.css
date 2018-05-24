@@ -1,0 +1,132 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	padding: 10px;
+
+}
+
+#Titulo1
+{
+background:#005883; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#Titulo2
+{
+background:#F0B429; /*color de fondo estipulado por width - color unad: 005883 azul - F0B429 amarillo - F47920 naranja*/
+margin: 9px 0px 9px 0px; /*margenes*/
+padding: 10px 10px 10px 10px; /*relleno*/
+}
+
+#LogoImagen
+{
+padding: 0px 0px 0px 0px; /*relleno*/
+width:100px; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+height: 70px; /*alto de caja*/
+float:right; /*left (imagen a la izquierda del texto).. right (imagen a la derecha del texto)*/
+}
+
+.TituloGeneral
+{
+display:block; /*como mostrar un elemento*/
+height: auto; /*alto de caja*/
+width:98%; /*Le establecemos un ancho, es decir, es la longitud de todo el menu (10px) 100% = todo el ancho*/
+text-align: center; /*alineacion de texto*/
+font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+font-size:20px; /*tamaño de la letra*/
+font-weight: bold; /*grosor de letra*/
+color: #FFFFFF; /*color letra*/
+}
+
+
+#menu {
+	float: left;
+	border-radius: 1em; 
+	width: 100%;
+	margin: auto;
+}
+
+li{
+
+	list-style: none;
+}
+
+div li a{
+  background: #005883;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+div li a:hover{
+	background: #487992;
+}
+
+div > li{
+	float: left;
+}
+
+div li ul {
+	display: none;	
+	position: absolute;
+	min-width: 140px;
+}
+
+div li:hover > ul {
+	display: block;
+}
+
+.twitter-timeline{
+	float: right;
+}
+
+.InicioContenidos{
+	background: #50B748;
+}
+
+#InicioTitulo{
+	margin-top: 50px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+	font-size:20px; /*tamaño de la letra*/
+	font-weight: bold; /*grosor de letra*/
+	padding: 10px 10px 10px 10px;
+}
+#InicioContenido{
+	font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+	font-size:20px; /*tamaño de la letra*/
+	font-weight: bold; /*grosor de letra*/
+	padding: 10px 10px 10px 10px;
+}
+
+#InicioTitulo2{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+	font-size:20px; /*tamaño de la letra*/
+	font-weight: bold; /*grosor de letra*/
+	padding: 10px 10px 10px 10px;
+}
+
+#InicioContenido2{
+	font-family: Arial, Helvetica, sans-serif; /*fuente de toda la letra del menu.. se estipula x familias de grupos: serif, sans-serif, cursive, fantasy, monospace*/
+	font-size:20px; /*tamaño de la letra*/
+	font-weight: bold; /*grosor de letra*/
+	padding: 10px 10px 10px 10px;
+}
+
+.PiePagina{
+	text-align: center;
+	color: #ffffff;
+	background: #005883;
+	margin-top: 50px;
+	height:115px;
+}
+
+
+.PiePaginaTitulo1{
+		padding: 10px;	
+}
