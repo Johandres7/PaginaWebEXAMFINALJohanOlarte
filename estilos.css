@@ -54,7 +54,7 @@ li{
 	list-style: none;
 }
 
-div li a{
+nav li a{
   background: #005883;
   color: #ffffff;
   text-decoration: none;
@@ -62,21 +62,21 @@ div li a{
   display: block;
 }
 
-div li a:hover{
+nav li a:hover{
 	background: #487992;
 }
 
-div > li{
+nav > li{
 	float: left;
 }
 
-div li ul {
+nav li ul {
 	display: none;	
 	position: absolute;
 	min-width: 140px;
 }
 
-div li:hover > ul {
+nav li:hover > ul {
 	display: block;
 }
 
